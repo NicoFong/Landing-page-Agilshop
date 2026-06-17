@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 40" width="160" height="40" role="img" aria-label="Logo cliente: Bloom Studio">
+  <g font-family="Inter, sans-serif" font-weight="700" fill="currentColor">
+    <path d="M8 20 Q14 8 20 20 Q14 32 8 20 Z" fill="currentColor" opacity="0.85"/>
+    <text x="30" y="26" font-size="17">bloom</text>
+    <text x="86" y="26" font-size="13" font-weight="500" opacity="0.6">studio</text>
+  </g>
+</svg>

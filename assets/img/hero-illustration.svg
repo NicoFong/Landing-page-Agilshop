@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" width="500" height="400" role="img" aria-label="Ilustración: ventana de navegador con sitio web moderno">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0.3"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#0a0a0f"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#ec4899"/>
+    </linearGradient>
+    <linearGradient id="cta" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+    <filter id="softGlow"><feGaussianBlur stdDeviation="8"/></filter>
+  </defs>
+
+  <!-- Glow blobs -->
+  <circle cx="120" cy="100" r="80" fill="#8b5cf6" opacity="0.4" filter="url(#softGlow)"/>
+  <circle cx="400" cy="320" r="100" fill="#ec4899" opacity="0.35" filter="url(#softGlow)"/>
+  <circle cx="380" cy="80" r="60" fill="#06b6d4" opacity="0.4" filter="url(#softGlow)"/>
+
+  <!-- Browser window -->
+  <g transform="translate(60, 70)">
+    <rect width="380" height="260" rx="14" fill="url(#screen)" stroke="rgba(255,255,255,0.15)" stroke-width="1.5"/>
+    <!-- Top bar -->
+    <rect width="380" height="36" rx="14" fill="rgba(255,255,255,0.04)"/>
+    <rect y="22" width="380" height="14" fill="rgba(255,255,255,0.04)"/>
+    <circle cx="18" cy="18" r="5" fill="#ec4899" opacity="0.7"/>
+    <circle cx="34" cy="18" r="5" fill="#f59e0b" opacity="0.7"/>
+    <circle cx="50" cy="18" r="5" fill="#10b981" opacity="0.7"/>
+    <rect x="80" y="10" width="220" height="16" rx="8" fill="rgba(255,255,255,0.06)"/>
+
+    <!-- Nav -->
+    <rect x="20" y="56" width="60" height="8" rx="4" fill="#f5f5fa"/>
+    <rect x="280" y="56" width="80" height="20" rx="10" fill="url(#cta)"/>
+
+    <!-- Hero content -->
+    <rect x="20" y="86" width="240" height="14" rx="7" fill="#f5f5fa"/>
+    <rect x="20" y="108" width="180" height="14" rx="7" fill="rgba(245,245,250,0.6)"/>
+    <rect x="20" y="130" width="220" height="8" rx="4" fill="rgba(245,245,250,0.4)"/>
+    <rect x="20" y="144" width="200" height="8" rx="4" fill="rgba(245,245,250,0.4)"/>
+    <rect x="20" y="170" width="100" height="22" rx="11" fill="url(#cta)"/>
+
+    <!-- Right card -->
+    <rect x="270" y="86" width="90" height="120" rx="10" fill="url(#card)" opacity="0.85"/>
+    <circle cx="315" cy="120" r="14" fill="rgba(255,255,255,0.4)"/>
+    <rect x="285" y="148" width="60" height="6" rx="3" fill="rgba(255,255,255,0.7)"/>
+    <rect x="285" y="160" width="40" height="6" rx="3" fill="rgba(255,255,255,0.5)"/>
+    <rect x="285" y="180" width="60" height="14" rx="7" fill="rgba(255,255,255,0.3)"/>
+
+    <!-- Bottom row: 3 cards -->
+    <rect x="20" y="210" width="105" height="35" rx="8" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.1)"/>
+    <rect x="138" y="210" width="105" height="35" rx="8" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.1)"/>
+    <rect x="256" y="210" width="105" height="35" rx="8" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.1)"/>
+    <circle cx="40" cy="227" r="6" fill="#8b5cf6"/>
+    <circle cx="158" cy="227" r="6" fill="#06b6d4"/>
+    <circle cx="276" cy="227" r="6" fill="#ec4899"/>
+    <rect x="54" y="223" width="50" height="4" rx="2" fill="rgba(255,255,255,0.5)"/>
+    <rect x="172" y="223" width="50" height="4" rx="2" fill="rgba(255,255,255,0.5)"/>
+    <rect x="290" y="223" width="50" height="4" rx="2" fill="rgba(255,255,255,0.5)"/>
+    <rect x="32" y="232" width="80" height="4" rx="2" fill="rgba(255,255,255,0.3)"/>
+    <rect x="150" y="232" width="80" height="4" rx="2" fill="rgba(255,255,255,0.3)"/>
+    <rect x="268" y="232" width="80" height="4" rx="2" fill="rgba(255,255,255,0.3)"/>
+  </g>
+
+  <!-- Cursor -->
+  <g transform="translate(310, 240)">
+    <path d="M0 0 L0 22 L6 17 L10 26 L14 24 L10 15 L18 14 Z" fill="#f5f5fa" stroke="#0a0a0f" stroke-width="1.2" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Floating tags -->
+  <g transform="translate(420, 60)">
+    <rect width="60" height="26" rx="13" fill="rgba(139,92,246,0.2)" stroke="#8b5cf6" stroke-width="1"/>
+    <text x="30" y="17" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" font-weight="600" fill="#c4b5fd">SEO</text>
+  </g>
+  <g transform="translate(20, 280)">
+    <rect width="78" height="26" rx="13" fill="rgba(6,182,212,0.2)" stroke="#06b6d4" stroke-width="1"/>
+    <text x="39" y="17" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" font-weight="600" fill="#67e8f9">WhatsApp</text>
+  </g>
+  <g transform="translate(420, 320)">
+    <rect width="68" height="26" rx="13" fill="rgba(236,72,153,0.2)" stroke="#ec4899" stroke-width="1"/>
+    <text x="34" y="17" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" font-weight="600" fill="#f9a8d4">Rápido</text>
+  </g>
+</svg>
